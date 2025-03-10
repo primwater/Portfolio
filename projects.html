@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Work</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader">Loading...</div>
+  </div>
+
+  <!-- Scroll Progress Bar -->
+  <div id="progressBarContainer">
+    <div id="progressBar"></div>
+  </div>
+
+  <!-- Fixed Navigation -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="logo">Blake C</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+         <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1>My Work</h1>
+      <p>Here are some examples of my work. More projects coming soon!</p>
+    </div>
+  </header>
+
+  <!-- Projects Grid (Unchanged) -->
+  <section class="projects-grid container">
+    <article class="project-card">
+      <img class="project-img" src="https://via.placeholder.com/800x500?text=Modern+Business+Website" alt="Modern Business Website">
+      <div class="project-info">
+        <h2>Modern Business Website</h2>
+        <p>A clean, professional site designed for small businesses to showcase their services.</p>
+      </div>
+    </article>
+    <article class="project-card">
+      <img class="project-img" src="https://via.placeholder.com/800x500?text=Landing+Page+with+Animations" alt="Landing Page with Animations">
+      <div class="project-info">
+        <h2>Landing Page with Animations</h2>
+        <p>A high-converting, sleek landing page with smooth JavaScript animations.</p>
+      </div>
+    </article>
+    <article class="project-card">
+      <img class="project-img" src="https://via.placeholder.com/800x500?text=Creative+Portfolio+Layout" alt="Creative Portfolio Layout">
+      <div class="project-info">
+        <h2>Creative Portfolio Layout</h2>
+        <p>A stylish personal portfolio template for freelancers and creatives.</p>
+      </div>
+    </article>
+    <article class="project-card">
+      <img class="project-img" src="https://via.placeholder.com/800x500?text=E-commerce+Platform" alt="E-commerce Platform">
+      <div class="project-info">
+        <h2>E-commerce Platform</h2>
+        <p>A robust, scalable e-commerce solution designed for seamless online shopping experiences.</p>
+      </div>
+    </article>
+    <article class="project-card">
+      <img class="project-img" src="https://via.placeholder.com/800x500?text=Blog+%26+CMS" alt="Blog &amp; CMS">
+      <div class="project-info">
+        <h2>Blog &amp; CMS</h2>
+        <p>A content-driven blog and CMS system with a focus on usability and performance.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- Process Overview Section (Unchanged) -->
+  <section class="process container">
+    <h2>My Process</h2>
+    <p>From brainstorming to launch, I work closely with clients at every step. My process ensures transparency, creativity, and efficiency.</p>
+    <ol>
+      <li>Consultation &amp; Concept</li>
+      <li>Design &amp; Prototyping</li>
+      <li>Development &amp; Testing</li>
+      <li>Launch &amp; Support</li>
+    </ol>
+  </section>
+
+  <!-- Call to Action Section (Unchanged) -->
+  <section class="cta container">
+    <a href="contact.html" class="btn">Contact Me</a>
+  </section>
+
+  <!-- New Slideshow Section -->
+  <section class="slideshow-section container">
+    <h2>Slideshow Preview</h2>
+    <div class="slideshow-container" id="slideshow">
+      <div class="slides" id="slides">
+        <!-- Ensure you have these images in your folder: Website1.png through Website5.png -->
+        <div class="slide"><img src="Website1.png" alt="Website 1"></div>
+        <div class="slide"><img src="Website2.png" alt="Website 2"></div>
+        <div class="slide"><img src="Website3.png" alt="Website 3"></div>
+        <div class="slide"><img src="Website4.png" alt="Website 4"></div>
+        <div class="slide"><img src="Website5.png" alt="Website 5"></div>
+      </div>
+      <!-- Invisible hover zones for left/right sliding -->
+      <div class="hover-zone left" id="leftZone"></div>
+      <div class="hover-zone right" id="rightZone"></div>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" title="Back to Top">↑</button>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="currentYear"></span> Blake C. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

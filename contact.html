@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Me</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader">Loading...</div>
+  </div>
+
+  <!-- Scroll Progress Bar -->
+  <div id="progressBarContainer">
+    <div id="progressBar"></div>
+  </div>
+
+  <!-- Fixed Navigation -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="logo">Blake C</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+         <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1>Contact Me</h1>
+      <p>Interested in working together? Let’s create something amazing!</p>
+    </div>
+  </header>
+
+  <!-- Contact Information Section -->
+  <section class="contact-section container">
+    <div class="contact-info">
+      <ul>
+        <li>Fiverr: <a href="https://www.fiverr.com/" target="_blank">My Fiverr Profile</a></li>
+        <li>Email: <a href="mailto:your@email.com">your@email.com</a></li>
+        <li>LinkedIn: <a href="#" target="_blank">My LinkedIn</a></li>
+        <li>Twitter: <a href="#" target="_blank">My Twitter</a></li>
+      </ul>
+    </div>
+    <p class="cta-text">Let's turn your idea into reality. Message me today and let's build something amazing together!</p>
+    <button class="btn" onclick="openContactForm()">Message Me</button>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="contact-form container">
+    <h2>Send Me a Message</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Additional Information Section -->
+  <section class="additional-info container">
+    <h2>Additional Information</h2>
+    <p>If you have any questions regarding my work or services, feel free to ask below:</p>
+    <ul>
+      <li><strong>Response Time:</strong> I typically respond within 24 hours.</li>
+      <li><strong>Project Inquiry:</strong> Please provide as many details as possible for an accurate quote.</li>
+      <li><strong>Collaboration:</strong> Open to freelance projects and long-term partnerships.</li>
+    </ul>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" title="Back to Top">↑</button>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="currentYear"></span> Blake C. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function openContactForm() {
+      alert("This is a demo contact form. Replace with your own implementation.");
+    }
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>
